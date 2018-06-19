@@ -1,0 +1,13 @@
+{
+    "name": "maximaleksey/react-school-entrants-tasks-php",
+    "authors": [
+        {
+            "name": "mAleksey",
+            "email": "maksym.oleksii@pdffiller.team"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "codeception/codeception": "^2.4"
+    }
+}

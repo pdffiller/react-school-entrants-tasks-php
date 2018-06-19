@@ -1,0 +1,34 @@
+{
+  "name": "react-school-entrants-tasks-js",
+  "version": "0.0.1",
+  "description": "Task for Entrants to the PDFfiller ReactJS School",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --noStackTrace --verbose",
+    "start": "babel-node",
+    "compile": "babel-cli "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdffiller/react-school-entrants-tasks-js.git"
+  },
+  "keywords": [
+    "JS",
+    "Tasks",
+    "Entrants"
+  ],
+  "author": "PDFfiller inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pdffiller/react-school-entrants-tasks-js/issues"
+  },
+  "homepage": "https://github.com/pdffiller/react-school-entrants-tasks-js#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.0.1",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.1.0",
+    "regenerator-runtime": "^0.11.1"
+  }
+}
