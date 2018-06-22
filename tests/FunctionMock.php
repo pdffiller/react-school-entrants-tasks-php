@@ -17,6 +17,7 @@ class FunctionMock
     public function __invoke(...$args)
     {
         $this->calls[] = $args;
+
         return $this->fn !== null ? call_user_func($this->fn, ...$args) : null;
     }
 }
