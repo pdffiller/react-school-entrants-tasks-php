@@ -98,6 +98,6 @@ class TaskTest extends \Codeception\Test\Unit
      */
     private function diff(array $arr1, array $arr2)
     {
-        return !strcmp(serialize($arr1), serialize($arr2));
+        return empty(array_filter(array_map('array_diff_assoc', $arr1, $arr2)));
     }
 }
